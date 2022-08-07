@@ -1,0 +1,84 @@
+head{
+    text-align: center;
+}
+body{
+    color: #B10F2E;
+    text-align: center;
+    background-color: #22333B;
+    height: 400vh;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: #FFFECB;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background: #B10F2E;
+    border-radius: 5px;
+}
+.button1{
+    border-style:double;
+    font-size: x-large;
+    color: #FFFECB;
+    background-color:#B10F2E;
+    border-color: #1e3742;
+    border-width: 10px;
+    border-radius: 10px;
+    padding: 20px 40px;
+}
+.button2{
+    border-style:double;
+    font-size: x-large;
+    color: #FFFECB;
+    background-color:#B10F2E;
+    border-color: #1e3742;
+    border-width: 10px;
+    border-radius: 10px;
+    padding: 20px 40px;
+}
+.button3{
+    border-style:double;
+    font-size: x-large;
+    color: #FFFECB;
+    background-color:#B10F2E;
+    border-color: #1e3742;
+    border-width: 10px;
+    border-radius: 10px;
+    padding: 20px 40px;
+}
+.topnav{
+    overflow: hidden;
+    background-color: #22333B;
+}
+.topnav a{
+    float:right;
+    display:block;
+    color: #B10F2E;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration:none;
+    border-radius: 5px;
+}
+.topnav a:hover{
+    background-color: #1e3742;
+    color: #FFFECB;
+}
+.bioForm{
+    text-align: center;
+    font-size: x-large;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    color:#B10F2E;
+    padding: 5%;
+}
+.modelLayout{
+    grid-template-columns: 20px 20px 20px;
+    grid-template-rows: 20px 20px 20px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #B10F2E;
+    padding: 10%;
+    grid-column: 60px;
+}
